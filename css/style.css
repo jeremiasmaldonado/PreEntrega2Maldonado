@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Unbounded:wght@200;400&display=swap');
+
+/* 
+fuentes 
+font-family: 'Roboto', sans-serif;
+font-family: 'Unbounded', cursive;
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.header-1{
+    display: flex;
+    width: 100%;
+    height: 499px;
+    justify-content: space-between;
+    background-color: #cbc378;
+    font-family:'Roboto', sans-serif;
+    font-size: 80px;
+    
+}
+.navbar{
+    display: flex;
+    gap: 100px;
+    padding: 45px 35px;
+    background-color: aliceblue;
+    border-radius: 35px;
+    opacity: 0.8;
+    margin: 150px 0px 0px 0px;
+}
+.navbar li a{
+    color: black;
+}
+.navbar li a:hover{
+    color: rgb(104, 8, 16);
+}
+
+.redes{
+    display: flex;
+    gap: 50px;
+    margin: 370px 30px;
+}
+.redes li a img{
+    width: 100px;
+}
+
+/* main */
+.titulo{
+    background-color: rgb(223, 224, 224);
+    border-radius: 0px 0px 70px 0px;
+    width: 2300px;
+    font-family: 'Unbounded', cursive;
+    font-size: 70px;
+    margin: 220px 0px 0px 1700px;
+}
+.titulo h1{
+    padding: 20px 0px 20px 30px;
+}
+section{
+    display: flex;
+}
+.primer-imagen img{
+    width: 1100px;
+    height: 1100px;
+    border-radius: 50%;
+    margin: 300px 0px 0px 500px;
+}
+.parrafo-1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    margin: 50px 0px 0px 450px;
+}
+.segunda-imagen img{
+    width: 1100px;
+    height: 1100px;
+    border-radius: 50%;
+    margin: 300px 0px 0px 600px;
+}
+.parrafo-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    margin: 50px 0px 0px 600px;
+}
+.tercer-imagen img{
+    width: 1100px;
+    height: 1100px;
+    border-radius: 50%;
+    margin: 300px 0px 0px 600px;
+}
+.parrafo-3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    margin: 50px 0px 0px 600px;
+}
+
+.header-3{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    justify-content: space-between;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+}
+.navbar-3 li a{
+    color: black;
+}
+.navbar-3{
+    display: flex;
+    gap: 50px;
+    padding: 15px 20px;
+    background-color: aliceblue;
+    border-radius: 35px;
+    opacity: 0.8;
+    margin: 10px 0px 0px 20px;
+}
+.header-4{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    justify-content: space-between;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+}
+.navbar-4 li a{
+    color: black;
+}
+.navbar-4{
+    display: flex;
+    gap: 50px;
+    padding: 15px 20px;
+    background-color: aliceblue;
+    border-radius: 35px;
+    opacity: 0.8;
+    margin: 10px 0px 0px 20px;
+}
+.header-5{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    justify-content: space-between;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+}
+.navbar-5 li a{
+    color: black;
+}
+.navbar-5{
+    display: flex;
+    gap: 50px;
+    padding: 15px 20px;
+    background-color: aliceblue;
+    border-radius: 35px;
+    opacity: 0.8;
+    margin: 10px 0px 0px 20px;
+}
+
+/* nosotros*/
+
+
+/* diseños */
+.fondo-diseños{
+    background-color: rgb(215, 220, 226);
+}
+.diseños{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas:
+    "item-3 item-3 item-4 item-4 item-5 item-5"
+    "item-3 item-3 item-4 item-4 item-5 item-5"
+    "item-1 item-1 item-2 item-2 item-5 item-5"
+
+}
+.diseño-1{
+    grid-area: item-1;
+    margin: 60px 20px;
+
+}
+.diseño-2{
+    grid-area: item-2;
+    margin: 80px 10px;
+}
+.diseño-3{
+    grid-area: item-3;
+}
+.diseño-3 img{
+    width: 500px;
+    height: 600px;
+    margin: 40px 20px;
+}
+.diseño-4{
+    grid-area: item-4;
+    
+}
+.diseño-4 img{
+    width: 550px;
+    height: 600px;
+    margin: 40px 10px;
+}
+.diseño-5{
+    grid-area: item-5;
+    
+}
+.diseño-5 img{
+    width: 600px;
+    height: 900px;
+    margin: 40px 10px;
+}
+
+/*equipo*/
+.fondo-equipo{
+    background-color: rgb(206, 226, 243);
+}
+.equipo{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 600px 60px 650px 100px;
+    grid-template-areas: 
+    "equipo-5 equipo-6 equipo-9 equipo-9"
+    "equipo-1 equipo-2 equipo-9 equipo-9"
+    "equipo-7 equipo-8 equipo-10 equipo-10"
+    "equipo-3 equipo-4 equipo-10 equipo-10"
+    ;
+}
+.equipo-1{
+    grid-area: equipo-1;
+    margin: 10px 20px;
+
+}
+.equipo-2{
+    grid-area: equipo-2;
+    margin: 10px 15px;
+}
+.equipo-3{
+    grid-area: equipo-3;
+    margin: 0px 20px;
+}
+.equipo-4{
+    grid-area: equipo-4;
+    margin: 0px 15px;
+}
+.equipo-5{
+    grid-area: equipo-5;
+}
+.equipo-5 img{
+    margin: 50px 20px;
+}
+.equipo-6{
+    grid-area: equipo-6;
+}
+.equipo-6 img{
+    margin: 50px 20px;
+}
+.equipo-7{
+    grid-area: equipo-7;
+    margin: 50px 20px;
+}
+.equipo-7 img{
+    margin: 20px 5px;
+}
+.equipo-8{
+    grid-area: equipo-8;
+    margin: 50px 20px;
+}
+.equipo-8 img{
+    margin: 20px 5px;
+}
+.equipo-9{
+    grid-area: equipo-9;
+    margin: 50px;
+}
+.equipo-9 img{
+    margin: 20px 5px;
+}
+.equipo-10{
+    grid-area: equipo-10;
+    margin: 20px 50px;
+}
+.equipo-10 img{
+    margin: 50px 5px;
+}
+
+
+
+
+/* CONTACTO*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #cbc378;
+    width: 100%;
+    height: 100px;
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 550px 0px 0px 0px;
+
+}
+.formulario{
+    display: grid;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 5px rgb(214, 205, 205);
+    width: 800px;
+    padding: 20px 40px;
+    margin: 80px 60px;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(8, 50px);
+    grid-template-areas: 
+    "item-1"
+    "item-1"
+    "item-2" 
+    "item-3" 
+    "item-4" 
+    "item-5" 
+    "item-6" 
+    "item-6" 
+    ;
+}
+.item-1{
+    grid-area: item-1;
+    padding: 25px 0px;
+
+}
+.item-2 input{
+    grid-area: item-2;
+    width: 600px;
+    height: 25px;
+
+}
+.item-3 input{
+    grid-area: item-3;
+    width: 600px;
+    height: 25px;
+
+}
+.item-4 input{
+    grid-area: item-4;
+    width: 600px;
+    height: 25px;
+
+}
+.item-5 input{
+    grid-area: item-5;
+    width: 600px;
+    height: 25px;
+
+}
+.item-6 input{
+    grid-area: item-6;
+    width: 50px;
+    height: 30px;
+    margin: 30px 0px;
+
+}
+.logo-footer img{
+    width: 100px;
+}
+.redes-2{
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+}
+.redes-2 li a img{
+    width: 40px;
+}
+.encontranos{
+    padding: 35px;
+}
+footer{
+    margin: 304px 0px 0px 0px;
+}
+
+
+
+
+
+
+/* 
+tablet
+*/
+
+@media (max-width: 768px){
+    header{
+        font-size: 20px;
+    }
+    .navbar{
+        justify-content: flex-start;
+    }
+    .navbar-3{
+        justify-content: flex-start;
+    }
+    .navbar li a{
+        font-size: 15px;
+    }
+    .navbar-3 li a{
+        font-size: 15px;
+    }
+    main{
+        flex-direction: row;
+    }
+    .titulo{
+        width: 500px;
+        font-family: 'Unbounded', cursive;
+        font-size: 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+
+/* 
+mobile
+*/
+
+@media (max-width:360px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo{
+        font-family: 'Unbounded', cursive;
+        font-size: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .diseños{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
